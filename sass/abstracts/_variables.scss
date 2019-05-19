@@ -1,0 +1,25 @@
+$color-primary:#55c57a;
+$color-gray-light-1:#f7f7f7be;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
+$color-black: rgb(0, 0, 0);
+$color-white: #fff;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+$color-tertiary-green: #2998;
+$color-tertiary-blue: #5643fa;
+$color-grey-dark: #999;
+$color-grey-dark-2: #333;
+$color-red:#d41f1f;
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+$default-font-size: 1.6rem;
+
+//&:not(:last-child){styl dla wszystkich tylko nie ostatniego}
+// width: calc((100%-#{$gutter-horizontal)}/2) - dla kolumn
+// [class*="col-"]{}- wybiera klasy ktore zawieraja col
+//// [class^="col-"]{}- wybiera klasy ktore zaczynaja sie od col
+// [class$="col-"]{}- wybiera klasy ktore koncza sie col
